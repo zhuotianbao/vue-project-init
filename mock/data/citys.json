@@ -1,0 +1,20 @@
+{
+	"errno": 0,
+	"errmsg": "success",
+	"data": [{
+		"cityid": 1,
+		"name": "北京市"
+	},{
+		"cityid": 2,
+		"name": "深圳市"
+	},{
+		"cityid": 4,
+		"name": "上海市"
+	},{
+		"cityid": 12,
+		"name": "济南市"
+	},{
+		"cityid": 17,
+		"name": "成都市"
+	}]
+}

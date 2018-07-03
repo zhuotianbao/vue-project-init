@@ -1,0 +1,10 @@
+{
+	"errno": 0,
+	"errmsg": "success",
+	"data": {
+		"name": "zhuotiabo",
+		"age": 25,
+		"sex": 1,
+		"address": "北京市"
+	}
+}

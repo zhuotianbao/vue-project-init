@@ -1,0 +1,107 @@
+*{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    font-size: 14px;
+    color: #4a4a4a;
+    height: 100%;
+    font-family: FZLTXHJW, -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ul li{
+    list-style: none;
+}
+h1, h2, h3, h4 ,h5 {
+    margin: 0;
+}
+h1{
+    font-size: 16px;
+}
+h2{
+    font-size: 14px;
+}
+a{
+    color: #282d33;
+    text-decoration: none;
+    border: none;
+    outline: 0;
+}
+a:link,a:visited,a:hover,a:active{
+    text-decoration:none;
+}
+a:focus{
+    outline:0;
+}
+button, a{
+    outline: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    display: block;
+}
+
+/** 通用左右居中 **/
+.lrcenter{
+    left: 50%;
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+}
+
+/** 通用上下居中 **/
+.tbcenter{
+    top: 50%;
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+}
+
+/** 三角形 **/
+.triangle-up{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 6px solid #2f365b;
+}
+
+/** 通用上下左右居中 **/
+.tblrcenter{
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.clearBoth{
+    clear: both;
+}
+
+.threeDot{
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow:hidden;
+}
