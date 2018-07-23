@@ -16,8 +16,8 @@ npm run deploy
 webpack4 + vue + vue-router + vuex + axios + mockjs + eslint + less(引入全局变量)
 
 ## 升级到webpack4
-###1、插件升级到对应版本或者最新版本
-###2、更新配置文件
+### 1、插件升级到对应版本或者最新版本
+### 2、更新配置文件
 #### 2.1、webpack.dev.conf.js 文件
 - `webpack.NamedModulesPlugin、webpack.NoEmitOnErrorsPlugin`，其功能webpack4已经默认配置，删除即可
 - 设置`mode: 'development'`
